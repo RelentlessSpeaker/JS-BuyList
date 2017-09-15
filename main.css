@@ -1,3 +1,149 @@
-h1 {
-    color: red;
+.bl-background {
+    background: #fff858;
+    padding: 20px;
+    height: 170px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+.finder {
+    width: 400px;
+    margin: auto;
+    padding-right: 300px;
+}
+
+.inp {
+    width: 80%;
+    float: left;
+}
+
+button {
+    padding: 8.5px 24px;
+}
+
+.butt {
+    padding-left: 5px;
+    float: left;
+    width: 20%;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+}
+
+.bl-list {
+    background: white;
+    margin-bottom: 10px;
+    margin: auto;
+    width: 66%;
+    float: left;
+}
+
+.bl-bought {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background: white;
+    width: 32%;
+    float: left;
+}
+
+.bl-row {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.bl-row3 {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.bl-product1 {
+    width: 5%;
+    display: inline-block;
+    font-family: Calibri;
+}
+
+.bl-product2 {
+    width: 5%;
+    display: inline-block;
+    font-family: Calibri;
+}
+
+.bl-product3 {
+    width: 5%;
+    display: inline-block;
+    font-family: Calibri;
+}
+
+.bl-count {
+    display: inline-block;
+    padding-left: 120px;
+}
+
+.bl-buttons {
+    padding-left: 80px;
+    width: 10%;
+    display: inline;
+}
+
+/*Кнопки*/
+.bl-label {
+    background: #cdcbcb;
+}
+.bl-plus {
+    background: #04a613;
+}
+
+.bl-minus {
+    background: #ff0001;
+}
+
+.bought {
+    padding: 4px;
+}
+
+.cross {
+    background: #ff0000;
+    padding: 4px;
+}
+
+.bl-title1 {
+    padding-left: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.bl-title2 {
+
+    border-top: 1px solid gray;
+}
+
+.ware1 {
+    background: #dcd4dd;
+}
+
+.n1 {
+    background: #eeaf69;
+}
+
+.ware2 {
+    background: #dcd4dd;
+}
+
+.n2 {
+    background: #eeaf69;
+}
+
+.ware3 {
+    background: #dcd4dd;
+}
+
+.n3 {
+    background: #eeaf69;
 }
