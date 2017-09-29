@@ -14,7 +14,7 @@
             <div class="item-list">
                 <div class="find-segment">
                     <span class="input-item">
-                        <input type="text" id="wname"
+                        <input class="new-item" type="text" id="wname"
                                placeholder="Додати товар..">
                         <button class="add">
                             <span class="tooltiptext"><b>Add new ware</b></span>
@@ -22,7 +22,7 @@
                     </span>
                 </div>
                 <div class="item-row">
-                    <div class="inner grid">
+                    <div class="inner-grid">
                         <div class="name-section">
                             <span class="not-bought">Помідори</span>
                         </div>
@@ -51,70 +51,10 @@
                                     <b>x</b>
                                 </i>
                             </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-row">
-                    <div class="inner grid">
-                        <div class="name-section">
-                            <span class="not-bought">Печиво</span>
-                        </div>
-                        <div class="first-buttons">
-                            <button class="minus-button">
-                                <span class="tooltiptext"><b>Remove item</b></span>
-                                <i class="minus-icon">
-                                    <b>-</b>
-                                </i>
-                            </button>
-                            <span class="count-label">1</span>
-                            <button class="plus-button">
-                                <span class="tooltiptext"><b>Add item</b></span>
-                                <i class="plus-icon">
-                                    <b>+</b>
-                                </i>
-                            </button>
-                        </div>
-                        <div class="last-buttons">
-                            <button class="buy-button">Куплено
-                                <span class="tooltiptext"><b>Buy</b></span>
-                            </button>
-                            <button class="delete-button">
-                                <span class="tooltiptext"><b>Delete bought</b></span>
+                            <button class="unbuy-button">
+                                <span class="tooltiptext"><b>Unbuy item</b></span>
                                 <i class="remove-icon">
-                                    <b>x</b>
-                                </i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-row">
-                    <div class="inner grid">
-                        <div class="name-section">
-                            <span class="not-bought">Сир</span>
-                        </div>
-                        <div class="first-buttons">
-                            <button class="minus-button">
-                                <span class="tooltiptext"><b>Remove item</b></span>
-                                <i class="minus-icon">
-                                    <b>-</b>
-                                </i>
-                            </button>
-                            <span class="count-label">1</span>
-                            <button class="plus-button">
-                                <span class="tooltiptext"><b>Add item</b></span>
-                                <i class="plus-icon">
-                                    <b>+</b>
-                                </i>
-                            </button>
-                        </div>
-                        <div class="last-buttons">
-                            <button class="buy-button">Куплено
-                                <span class="tooltiptext"><b>Buy</b></span>
-                            </button>
-                            <button class="delete-button">
-                                <span class="tooltiptext"><b>Delete item</b></span>
-                                <i class="remove-icon">
-                                    <b>x</b>
+                                    <b>Не куплено</b>
                                 </i>
                             </button>
                         </div>
@@ -130,15 +70,7 @@
                 <div class="segment">
                     <div class="stats">
                         <span class="stats-label">
-                            <span class="title">Помідори</span>
-                            <span class="count-label">1</span>
-                        </span>
-                        <span class="stats-label">
-                            <span class="title">Печиво</span>
-                            <span class="count-label">1</span>
-                        </span>
-                        <span class="stats-label">
-                            <span class="title">Сир</span>
+                            <span id="product" class="title">41212</span>
                             <span class="count-label">1</span>
                         </span>
                     </div>
@@ -160,5 +92,10 @@
         <div class="creator">Created by Dio</div>
     </span>
 </div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">
+</script>
+<script type="text/javascript" src="main.js"> </script>
+
 </body>
 </html>

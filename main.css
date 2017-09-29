@@ -43,33 +43,76 @@ body {
     padding-top: 5px;
     margin-bottom: 5px;
     width: auto;
+    display: none;
 }
 
 .inner-grid {
-    align-items: stretch;
     display: flex;
     flex-direction: row;
-    width: 100%;
-}
-
-input {
-
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 0;
+    position: relative;
 }
 
 .name-section {
-    width: 35%;
+    width: 25%;
+    padding-top: 10px;
+    align-items: center;
     font-size: 1em;
-    display: inline-block;
-    float: left;
+    display: inline;
 }
 
 .first-buttons {
+    width: 37.5%;
     display: inline-block;
+    position: absolute;
+    left: 40%;
 }
 
 .last-buttons {
-    float: right;
+    width: 37.5%;
     display: inline-block;
+    position: absolute;
+    left: 70%;
+}
+
+.unbuy-button {
+    cursor: pointer;
+    background: linear-gradient(transparent, rgba(0,0,0,.05)) #f8f8f8;
+    color: rgba(0,0,0,.6);
+    padding: 0.5em 1em 0.5em 1em;
+    text-align: center;
+    text-shadow: none;
+    border-radius: .4em;
+    border: 1px solid gainsboro;
+    margin: 0 .25em 0 0;
+    font-size: 1em;
+    font-family: Lato;
+    box-shadow: 0 -0.3em 0 0 rgba(34,36,38,.15) inset;
+    display: none;
+}
+
+
+
+.is-bought .first-buttons button{
+    visibility: hidden;
+}
+
+.is-bought .last-buttons .delete-button{
+    display: none;
+}
+
+.is-bought .last-buttons .buy-button{
+    display: none;
+}
+
+.is-bought .unbuy-button {
+    display: inline;
+}
+
+.is-bought .not-bought {
+    text-decoration: line-through;
 }
 
 .first-buttons .count-label {
@@ -110,7 +153,7 @@ input {
 
 .stats .title {
     padding: 7px;
-    font-size: 0.75em;
+    font-size: 1em;
     font-family: Calibri;
     border-radius: .4em;
 }
@@ -128,6 +171,7 @@ input {
     font-weight: 500;
     border: 0 solid transparent;
     border-radius: .25rem;
+    display: none;
 }
 
 .stats .count-label {
