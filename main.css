@@ -115,6 +115,14 @@ body {
     text-decoration: line-through;
 }
 
+.is-bought .title {
+    text-decoration: line-through;
+}
+
+.is-bought .count-label2 {
+    text-decoration: line-through;
+}
+
 .first-buttons .count-label {
     display: inline-block;
     font-size: 1em;
@@ -149,13 +157,25 @@ body {
 
 .stats-bought {
     border-top: 1px solid rgba(34,36,38,.15);
+    padding: 14px;
 }
 
-.stats .title {
+.stats-label .title {
     padding: 7px;
     font-size: 1em;
-    font-family: Calibri;
     border-radius: .4em;
+}
+
+.edit {
+    display: none;
+}
+
+.change .not-bought {
+    display: none;
+}
+
+.change .rename {
+    display: inline-block;
 }
 
 .stats-label {
@@ -174,16 +194,18 @@ body {
     display: none;
 }
 
-.stats .count-label {
+.count-label2 {
     background-color: #F2711C;
     padding: .1em 0.5em;
     font-size: 0.8em;
-    font-family: Calibri;
     text-align: center;
     color: white;
-    text-align: center;
     border-radius: 22rem;
     margin-right: 0.3em;
+}
+
+.stats-bought {
+
 }
 
 p {
